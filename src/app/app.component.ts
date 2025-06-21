@@ -3,10 +3,11 @@ import { AboutComponent } from "./about/about.component";
 import { ButtonModule } from "primeng/button";
 import { CommonModule } from '@angular/common';
 import { SideBarComponent } from "./side-bar/side-bar.component";
+import { SkillsComponent } from "./skills/skills.component";
 
 @Component({
   selector: 'app-root',
-  imports: [AboutComponent, ButtonModule, CommonModule, SideBarComponent],
+  imports: [AboutComponent, ButtonModule, CommonModule, SideBarComponent, SkillsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
