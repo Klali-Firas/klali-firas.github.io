@@ -3,9 +3,12 @@
     [class.hide-sidebar]="!sidebarVisible">
 
   </app-side-bar>
-  <div class="main w-full" [ngClass]="sidebarVisible && !isSmallScreen ? 'ml-[260px]' : ''">
-    <p-button icon="pi pi-bars" outlined="true" (onClick)="toggleSidebar()"></p-button>
+  <div class="main w-full relative" [ngClass]="sidebarVisible && !isSmallScreen ? 'ml-[260px]' : ''">
+    <div class="fixed top-0 bg-(--p-surface-950)/80 p-1 w-full" style="backdrop-filter: blur(4px);">
+      <p-button size="small" icon="pi pi-bars" outlined="true" (onClick)="toggleSidebar()"></p-button>
+    </div>
     <app-about></app-about>
+
   </div>
 </div>
 <div class="layout-mask" *ngIf="sidebarVisible" (click)="toggleSidebar()"></div>

@@ -7,3 +7,13 @@ html,
 body {
   overflow-x: hidden;
 }
+/* html:not(.my-app-dark) body {
+  background-color: var(--p-surface-50);
+}
+html.my-app-dark body {
+  background-color: var(--p-surface-950);
+} */
+
+html body {
+  background-color: var(--p-surface-950);
+}
