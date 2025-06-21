@@ -12,13 +12,6 @@
 }
 @media (max-width: 768px) {
   .side-bar {
-    width: 80vw !important;
-    max-width: 320px;
-    min-width: 200px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
     z-index: 999;
   }
   .layout-mask {

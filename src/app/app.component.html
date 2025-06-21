@@ -1,8 +1,9 @@
 <div class="w-screen flex flex-row">
-  <div class="side-bar w-[20vw] bg-blue-500 fixed top-0 left-0" [class.hide-sidebar]="!sidebarVisible">
-    hey
-  </div>
-  <div class="main w-full" [ngClass]="sidebarVisible && !isSmallScreen ? 'ml-[20vw]' : ''">
+  <app-side-bar class="side-bar bg-(--p-primary-contrast-color) fixed top-0 left-0"
+    [class.hide-sidebar]="!sidebarVisible">
+
+  </app-side-bar>
+  <div class="main w-full" [ngClass]="sidebarVisible && !isSmallScreen ? 'ml-[260px]' : ''">
     <p-button icon="pi pi-bars" outlined="true" (onClick)="toggleSidebar()"></p-button>
     <app-about></app-about>
   </div>
