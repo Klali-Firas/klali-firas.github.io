@@ -1,2 +1,10 @@
-<h1>Hello World!</h1>
-<app-about></app-about>
+<div class="w-screen flex flex-row">
+  <div class="side-bar w-[20vw] bg-blue-500 fixed top-0 left-0" [class.hide-sidebar]="!sidebarVisible">
+    hey
+  </div>
+  <div class="main w-full" [ngClass]="sidebarVisible && !isSmallScreen ? 'ml-[20vw]' : ''">
+    <p-button icon="pi pi-bars" outlined="true" (onClick)="toggleSidebar()"></p-button>
+    <app-about></app-about>
+  </div>
+</div>
+<div class="layout-mask" *ngIf="sidebarVisible" (click)="toggleSidebar()"></div>

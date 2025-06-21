@@ -1,0 +1,38 @@
+/* ...existing code... */
+.side-bar {
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+  z-index: 999;
+}
+.hide-sidebar {
+  transform: translateX(-100%);
+}
+.layout-mask {
+  display: none;
+}
+@media (max-width: 768px) {
+  .side-bar {
+    width: 80vw !important;
+    max-width: 320px;
+    min-width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .layout-mask {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 991;
+  }
+}
+/* ...existing code... */
+.main {
+  transition: margin-left 0.3s ease;
+}
