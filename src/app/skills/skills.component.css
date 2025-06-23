@@ -44,78 +44,95 @@
   flex-wrap: wrap;
 }
 
-.container .div-card .angular {
-  background-image: url("/assets/images/angular-logo.png");
-}
-.container .div-card-item.nodejs {
-  background-image: url("/assets/images/nodejs-logo.png");
-}
 .container .div-card-item.angular {
   background-image: url("/assets/images/angular-logo.png");
+  background-position: center;
 }
 .container .div-card-item.react {
   background-image: url("/assets/images/React-logo.webp");
+  background-position: center;
 }
 .container .div-card-item.javascript {
   background-image: url("/assets/images/javascript-logo.webp");
+  background-position: center;
 }
 .container .div-card-item.typescript {
   background-image: url("/assets/images/typescript-logo.png");
+  background-position: center;
 }
 .container .div-card-item.python {
   background-image: url("/assets/images/python-logo.png");
+  background-position: center;
 }
 .container .div-card-item.flutter {
   background-image: url("/assets/images/flutter-logo.png");
+  background-position: center;
 }
 .container .div-card-item.springboot {
   background-image: url("/assets/images/spring-boot-logo.svg");
+  background-position: center;
 }
 .container .div-card-item.mongodb {
   background-image: url("/assets/images/mongodb-logo.svg");
+  background-position: center;
 }
 .container .div-card-item.postgresql {
   background-image: url("/assets/images/Postgresql-logo.png");
+  background-position: center;
 }
 .container .div-card-item.nextjs {
   background-image: url("/assets/images/next.js-logo.png");
+  background-position: center;
 }
 .container .div-card-item.androidstudio {
   background-image: url("/assets/images/Android_Studio_logo.png");
+  background-position: center;
 }
 .container .div-card-item.intellij {
   background-image: url("/assets/images/intellij-idea-logo.svg");
+  background-position: center;
 }
 .container .div-card-item.vscode {
   background-image: url("/assets/images/Visual-Studio-Code-logo.svg");
+  background-position: center;
 }
 .container .div-card-item.postman {
   background-image: url("/assets/images/postman-logo.webp");
+  background-position: center;
 }
 .container .div-card-item.rasa {
   background-image: url("/assets/images/rasa_logo.webp");
+  background-position: center;
 }
 .container .div-card-item.sql {
   background-image: url("/assets/images/sql-logo.png");
+  background-position: center;
 }
 .container .div-card-item.drawio {
   background-image: url("/assets/images/Draw.io_Logo.png");
+  background-position: center;
 }
 .container .div-card-item.adobeae {
   background-image: url("/assets/images/Adobe_After_Effects_logo.png");
+  background-position: center;
 }
 .container .div-card-item.adobeai {
   background-image: url("/assets/images/Adobe_Illustrator_logo.png");
+  background-position: center;
 }
 .container .div-card-item.adobeps {
   background-image: url("/assets/images/adobe-photoshop-logo.svg");
+  background-position: center;
 }
 .container .div-card-item.adobelr {
   background-image: url("/assets/images/Adobe_Photoshop_Lightroom_logo.png");
+  background-position: center;
 }
 .container .div-card-item.adobeme {
   background-image: url("/assets/images/Adobe_Media_Encoder_logo.png");
+  background-position: center;
 }
 .container .div-card-item.adobepremiere {
   background-image: url("/assets/images/Adobe_Premiere_Pro_logo.png");
+  background-position: center;
 }
